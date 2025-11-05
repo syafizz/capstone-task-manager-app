@@ -1,0 +1,51 @@
+body {
+  font-family: Arial;
+  background: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+.done span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 90%;
+  }
+}
